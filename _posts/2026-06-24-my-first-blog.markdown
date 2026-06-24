@@ -1,7 +1,7 @@
 ---
-title: "Markdown  Components"
+title: "My First Blog"
 layout: post
-date: 2016-02-24 22:48
+date: 2026-06-24 20:04
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -9,8 +9,8 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: sho
+description: my first blog
 ---
 
 # 祝贺
