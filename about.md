@@ -21,6 +21,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </ul>
 
+<h2>Publications</h2>
 <ul class="publication-list">
 	<li>
 		Potential-mediated Enol-Keto Equilibrium in Phenol Electro-hydrogenation on Platinum.
