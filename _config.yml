@@ -1,6 +1,6 @@
 # main text of home
 title: QingYang Liu
-bio: ph.D. Student from SUSTECH
+bio: Ph.D. Student from SUSTECH
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -44,7 +44,7 @@ email: 2522850690@qq.com
 authors:
   liuqy:
     name: Qingyang Liu
-    bio: phD student from SUSTech
+    bio: Ph.D. student from SUSTech
     external-image: false
     picture: assets/images/me.jpg
 
