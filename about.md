@@ -60,5 +60,5 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">SHO-chem</a></li>
+	<li><a href="https://github.com/">SHO-chem的Github</a></li>
 </ul>
