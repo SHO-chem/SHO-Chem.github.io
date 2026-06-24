@@ -1,11 +1,16 @@
 ---
-title: "My first blog"
+title: "Markdown  Components"
 layout: post
-date: 2026-06-24 17:20:00
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- components
+- extra
 category: blog
-hidden: false
-author: SHO
-description: My First Blog
+author: jamesfoster
+description: Markdown summary with different options
 ---
 
 # 祝贺
