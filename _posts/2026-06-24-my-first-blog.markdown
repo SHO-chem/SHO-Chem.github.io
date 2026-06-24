@@ -8,5 +8,5 @@ author: SHO
 description: My First Blog
 ---
 
-# 祝贺
-成功建立个人网页！并且创建第一条个人博客！
+# Congrats
+congrats on your first blog!
