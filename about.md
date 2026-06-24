@@ -23,7 +23,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <ul class="publication-list">
 	<li>Potential-mediated Enol-Keto Equilibrium in Phenol Electro-hydrogenation on Platinum.<a href=""> <em>Nat. Commun.</em>, 2026, in press.</li>
-	<li>Mechanistic Investigations on Benzaldehyde Hydrogenation on Cu Electrocatalyst: The Role of Local Solvent Environment.<a href=" https://doi.org/10.1016/j.jcat.2025.116611 "> <em>J. Catal.</em>, 2026, 454, 116611.</li>
+	<li>Mechanistic Investigations on Benzaldehyde Hydrogenation on Cu Electrocatalyst: The Role of Local Solvent Environment.<a href=" https://doi.org/10.1016/j.jcat.2025.116611"> <em>J. Catal.</em>, 2026, 454, 116611.</li>
 	<!-- 以后有新的在这里继续添加 -->
 </ul>
 
