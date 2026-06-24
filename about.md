@@ -9,7 +9,7 @@ layout: page
   <a href="https://www.bilibili.com/video/BV1m14y1v7JD/" target="_blank" rel="noopener noreferrer">
     JingdeZhen, JiangXi Province, China
   </a>. 
-  I'm a Ph.D. candidate in Computational Electrocatalysis at the Southern University of Science and Technology (SUSTech).
+  A Ph.D. candidate in Computational Electrocatalysis at the Southern University of Science and Technology (SUSTech).
 </p>
 
 
