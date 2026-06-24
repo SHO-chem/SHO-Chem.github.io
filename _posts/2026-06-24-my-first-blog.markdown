@@ -1,15 +1,13 @@
 ---
 title: "My First Blog"
 layout: post
-date: 2026-02-24 22:44
+date: 2026-06-24 20
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
 - extra
 category: blog
-author: johndoe
+author: sho
 description: my first blog
 ---
 
