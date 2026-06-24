@@ -110,3 +110,4 @@ exclude:
     "vendor",
   ]
 markdown_ext: "md,markdown,mkd,mkdn,mdown"
+future: "true"
