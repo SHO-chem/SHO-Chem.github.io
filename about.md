@@ -23,12 +23,22 @@ layout: page
 </ul>
 
 <h2>Favorites</h2>
-</ul class='favorites-list'>
-		<li>One Direction</li>
-		<li>Eric Clapton</li>
-		<li>The Beatles</li>
-		<li>Khalil Fong</li>
-		<li>David Tao</li>
+<ul class="favorites-list">
+	<li>
+			One Direction
+	</li>
+	<li>
+		Eric Clapton
+	</li>
+	<li>
+		The Beatles
+	</li>
+	<li>
+		Khalil Fong
+	</li>
+	<li>
+		David Tao
+	</li>
 </ul>
 
 <h2>Publications</h2>
