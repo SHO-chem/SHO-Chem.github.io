@@ -46,8 +46,7 @@ There are six levels of headings. They correspond with the six levels of HTML he
 ### Heading
 
 #### Heading
-
-{% endhighlight %}
+   {% endhighlight %}
 
 ---
 
