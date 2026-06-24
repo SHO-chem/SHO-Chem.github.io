@@ -2,14 +2,10 @@
 title: "My first blog"
 layout: post
 date: 2026-06-24 17:20:00
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- extra
 category: blog
+hidden: false
 author: SHO
 description: My First Blog
-hidden: false
 ---
 
 # 祝贺
