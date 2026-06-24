@@ -8,16 +8,17 @@ tag:
 - markdown
 - components
 - extra
+hidden: true
 category: blog
 author: jamesfoster
 description: Markdown summary with different options
 ---
-
 ## Summary:
 
 You can pick as item to see how to apply in markdown.
 
 #### Especial Elements
+
 - [Evidence](#evidence)
 - [Side-by-Side](#side-by-side)
 - [Star](#star)
@@ -25,6 +26,7 @@ You can pick as item to see how to apply in markdown.
 - [Spoiler](#spoiler)
 
 #### External Elements
+
 - [Gist](#gist)
 - [Codepen](#codepen)
 - [Slideshare](#slideshare)
@@ -36,10 +38,10 @@ You can pick as item to see how to apply in markdown.
 
 You can try the evidence!
 
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+`<span class="evidence">`Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.
 
 {% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+`<span class="evidence">`Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.
 {% endhighlight %}
 
 ---
@@ -51,53 +53,65 @@ Like the [Medium](https://medium.com/) component.
 **Image** on the left and **Text** on the right:
 
 {% highlight html %}
+
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    `<div class="toright">`
+        `<p>`Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`</p>`
+    `</div>`
+
 </div>
 {% endhighlight %}
 
+
+{% endhighlight %}
+
+
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    `<div class="toright">`
+        `<p>`Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`</p>`
+    `</div>`
+
 </div>
 
 **Text** on the left and **Image** on the right:
 
 {% highlight html %}
+
 <div class="side-by-side">
     <div class="toleft">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-    <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
+    `<div class="toright">`
+        `<img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">`
+        `<figcaption class="caption">`Photo by John Doe`</figcaption>`
+    `</div>`
+
 </div>
 {% endhighlight %}
 
+{% endhighlight %}hidden: true
+
 <div class="side-by-side">
     <div class="toleft">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-    <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
+    `<div class="toright">`
+        `<img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">`
+        `<figcaption class="caption">`Photo by John Doe`</figcaption>`
+    `</div>`
+
 </div>
 
 ---
@@ -117,6 +131,7 @@ star: true
 You can add a especial *hr* to your text.
 
 {% highlight html %}
+
 <div class="breaker"></div>
 {% endhighlight %}
 
@@ -129,6 +144,7 @@ You can add a especial *hr* to your text.
 You can add an especial hidden content that appears on hover.
 
 {% highlight html %}
+
 <div class="spoiler"><p>your content</p></div>
 {% endhighlight %}
 
@@ -153,14 +169,15 @@ You can add Gists from github.
 You can add Pens from Codepen.
 
 {% highlight html %}
+
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
     See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.
 </p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 {% endhighlight %}
 
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://assets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
@@ -169,10 +186,11 @@ You can add Pens from Codepen.
 Add your presentations here!
 
 {% highlight html %}
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 {% endhighlight %}
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 ---
 
@@ -183,6 +201,7 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 **Example**
 
 {% highlight html %}
+
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
 {% endhighlight %}
 
