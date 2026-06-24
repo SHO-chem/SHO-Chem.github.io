@@ -9,7 +9,7 @@ tag:
 - components
 - extra
 category: blog
-author: sho
+author: johndoe
 description: my first blog
 ---
 
