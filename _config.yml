@@ -109,4 +109,4 @@ exclude:
     "FAQ.md",
     "vendor",
   ]
-  markdown_ext:"md,markdown,mkd,mkdn,mdown"
+markdown_ext: "md,markdown,mkd,mkdn,mdown"
