@@ -4,7 +4,13 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hello there! I'm SHO, from <a href="https://www.bilibili.com/video/BV1m14y1v7JD/?spm_id_from=333.337.search-card.all.click&vd_source=909a5db524deed9bfc8ea398875ee29b">**JingDeZhen, JiangXi Province, China**</a>. A Ph.D. candidate in [Computational Electrocatalysis] in Southern University of Science and Technology (SUSTech)。</p>
+<p>
+  Hello there! I'm SHO, from 
+  <a href="https://www.bilibili.com/video/BV1m14y1v7JD/" target="_blank" rel="noopener noreferrer">
+    JingdeZhen, JiangXi Province, China
+  </a>. 
+  I'm a Ph.D. candidate in Computational Electrocatalysis at the Southern University of Science and Technology (SUSTech).
+</p>
 
 
 <ul class="skill-list">
@@ -17,11 +23,13 @@ layout: page
 </ul>
 
 <h2>Favorites</h2>
+</ul class='favorites-list'>
 	<li>One Direction</li>
 	<li>Eric Clapton</li>
 	<li>The Beatles</li>
 	<li>Khalil Fong</li>
 	<li>David Tao</li>
+</ul>
 
 <h2>Publications</h2>
 <ul class="publication-list">
