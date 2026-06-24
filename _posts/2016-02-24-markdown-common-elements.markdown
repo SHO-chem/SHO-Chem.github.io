@@ -113,7 +113,7 @@ URLs can be made in a handful of ways:
 ---
 
 ## Horizontal rule
-
+{% highlight raw %}
 A horizontal rule is a line that goes across the middle of the page.
 It's sometimes handy for breaking things up.
 
